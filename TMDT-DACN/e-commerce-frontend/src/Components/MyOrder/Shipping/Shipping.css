@@ -1,0 +1,122 @@
+.order-container {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.order-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px !important;
+  padding: 20px;
+  width: 1100px;
+  margin: auto;
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.order-seller {
+  font-weight: bold;
+}
+
+.shipping-order-body {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 0;
+  justify-content: space-between;
+}
+
+.product-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.order-image {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.order-details {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.order-title {
+  font-weight: bold;
+}
+
+.order-variation,
+.order-quantity,
+.order-color,
+.order-return {
+  margin-bottom: 5px;
+}
+
+.order-status {
+  text-align: right;
+}
+
+.status-text {
+  font-weight: bold;
+  font-size: 25px;
+  color: blue;
+}
+
+.order-price {
+  font-weight: bold;
+  text-align: right;
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+.order-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+}
+
+.ship-date span {
+  color: #0091ea;
+}
+
+.order-total {
+  display: flex;
+  align-items: center;
+}
+
+.total-price {
+  color: #ff6600;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.order-buttons .btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.btn-contact-seller {
+  background-color: #ff6600;
+  color: #fff;
+}
+
+.status-icon {
+  font-size: 30px;
+}

@@ -1,0 +1,93 @@
+.container-main {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  box-sizing: border-box;
+  margin: 10px auto;
+}
+
+.filter-section {
+  width: 240px; /* Adjusted width to match design */
+  font-family: Arial, sans-serif;
+  background-color: #fff; /* Light background color */
+  padding: 10px;
+  border-radius: 5px; /* Rounded corners */
+  margin-right:10px;
+}
+
+details {
+  margin-bottom: 5px;
+  border: none; /* Removing default border */
+}
+
+details>summary {
+  font-weight: bold;
+  padding: 10px 15px;
+  cursor: pointer;
+  position: relative; /* Needed for positioning the icon */
+  list-style: none; 
+  outline: none; /* Remove focus outline */
+  border-top: 1px solid #ccc; /* Add subtle border */
+}
+/* Custom caret icon */
+details>summary::after {
+  content: 'v'; 
+  position: absolute;
+  right: 10px;
+  transition: transform 0.2s ease-in-out;
+  transform: translateY(-50%) translateX(-50%);/* Center the icon before rotation */
+  top: 50%;
+  transform-origin: center; /* Ensures rotation occurs around the center */
+}
+
+details[open]>summary::after {
+  transform: translateY(-50%) translateX(-50%) rotate(180deg); /* Rotated icon when details is open */
+}
+
+details>ul {
+  list-style: none;
+  padding: 0 15px 10px 15px; /* Padding inside the list */
+  margin: 5px 0 0; /* Spacing at the top of the list */
+}
+
+details>ul>li {
+  padding: 8px 0; /* Padding for each list item */
+}
+
+details>ul>li>a {
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+}
+
+/* Style for checkboxes */
+details>ul>li>input[type="checkbox"] {
+  margin-right: 10px;
+  margin-left:5px;
+  cursor: pointer;
+  transform:  translateY(-20%) scale(1.5); /* Increase the size of the checkbox */
+  vertical-align: middle;
+
+}
+
+
+details>ul>li>label {
+  cursor: pointer;
+}
+
+/* You can add styles for custom sliders and other input elements here */
+
+/* Styles for 'See all' links */
+.see-all {
+  display: block;
+  margin: 0 auto;
+  color: #0066c0;
+  cursor: pointer;
+  text-decoration: underline;
+  background: none;
+  border: none;
+  padding: 5px;
+  width: 100%;
+  text-align: start;
+}
+

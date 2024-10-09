@@ -1,0 +1,198 @@
+/* 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white; 
+    color: white;
+    height: 10px;
+    margin-top: 15px;
+}
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img{
+    width: 45px;
+}   
+
+.logo p{
+    color: #171717;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.navbar .search-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;    
+}
+
+.search-bar {
+    width: 50%; 
+    padding: 10px;
+    border-color: #127FFF;
+    border-radius: 5px 0 0 5px;
+    flex-grow: 0;
+    padding: 10px;
+    margin-right: -1px;
+    border-width: 1px;
+}
+
+.category-dropdown {
+    padding: 10px 10px 10px 10px;
+    border-color: #127FFF;
+    margin-right: -1px;
+    background: white;
+    color: black;
+    cursor: pointer;
+    justify-content: center;
+    display: flex;
+}
+
+
+.search-button {
+    padding: 10px;
+    border-color: #127FFF;
+    background-color: #127FFF; 
+    color: white;
+    cursor: pointer;
+    border-width: 1px;
+    border-radius: 0 5px 5px 0; 
+}
+
+.search-container button:active{
+    background: #4fa1ff;
+}
+
+.search-bar:focus, .category-dropdown:focus {
+    outline: none;
+}
+
+.navbar input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border-color: #127FFF;
+}
+.navbar .user-actions {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-right: 30px;
+}
+.navbar .icon {
+    width: 30px;
+    height: 30px;
+}
+
+.cart-count{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+    margin-left: -40px;
+    font-size: 12px;
+    background: red;
+    color: white;
+}
+
+.login-cart{
+    display: block;
+    gap: 30px;
+}
+
+.login-cart button{
+    width: 100px;
+    height: 35px;
+    outline: none;
+    border: 1px solid #7a7a7a;
+    border-radius: 75px;
+    color: #515151;
+    font-size: 18px;
+    font-weight: 500;
+    background: white;
+    cursor: pointer;
+    padding: 8px 20px; 
+    display: inline-block;
+    text-align: center;
+    
+}
+.login-cart button:active{
+    background: #f3f3f3;
+} */
+
+.navbar-container {
+    display: flex;
+    justify-content: center; /* Căn giữa nội dung theo chiều ngang */
+    align-items: center; /* Căn giữa nội dung theo chiều dọc nếu cần */
+    width: 100%; /* Đặt chiều rộng tối đa */
+    background-color: white; /* Thay đổi theo màu nền bạn muốn */
+    margin-top: 5px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 0px;
+  }
+  
+  .category-dropdown {
+    padding: 5px;
+    border-color: #127FFF;
+    margin-right: -1px;
+    background: white;
+    color: black;
+    cursor: pointer;
+    justify-content: center;
+    display: flex;
+}
+
+    .dropdown select {
+    padding: 5px 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  .dropdown select {
+    padding: 5px 5px 5px 5px;
+    border: none; /* Loại bỏ viền */
+    outline: none; /* Loại bỏ đường viền khi select được focus */
+    cursor: pointer;
+    -webkit-appearance: none; /* For Chrome and Safari */
+    -moz-appearance: none; /* For Firefox */
+    appearance: none; /* Loại bỏ mặc định style của select */
+    background: url('../Assets/dropdown_icon.png') no-repeat right; /* Hình ảnh mũi tên của bạn */
+    background-size: 12px; /* Điều chỉnh kích thước theo hình ảnh của bạn */
+    border-radius: 4px; /* Nếu bạn vẫn muốn giữ viền bo tròn */
+    
+}
+
+  .navbar-link {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black; /* Change color as needed */
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown span{
+    margin-left: 15px;
+  }

@@ -1,0 +1,109 @@
+[33mcommit cede72d7b3a04813e5180f916419eef25a1eb67d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Merge: d3e99239 9346eab3
+Author: veolo <phamthanhhung71102@gmail.com>
+Date:   Sun Apr 14 20:00:51 2024 +0700
+
+    Merge branch 'main' of https://github.com/jackson545355/TMDT-DACN
+
+[33mcommit d3e9923921e7b3a776a37e291872365f6360072d[m
+Author: veolo <phamthanhhung71102@gmail.com>
+Date:   Fri Apr 12 23:23:26 2024 +0700
+
+    hi
+
+[33mcommit 9346eab339f3e98e8208d2ddf036c6ee06325cff[m
+Author: jackson545355 <trinhphung605@gmail.com>
+Date:   Thu Apr 4 17:28:56 2024 +0700
+
+    lhwng
+
+[33mcommit f19f59ae4fcd617dd83ab8f19a70a73845b5011d[m
+Author: nhokthaivt2000 <xumap.gt@gmail.com>
+Date:   Tue Apr 2 13:41:13 2024 +0700
+
+    fix header,navbar,login
+
+[33mcommit 8537b48e730d30beebca800ffeb7ae36537a732c[m
+Author: veolo <phamthanhhung71102@gmail.com>
+Date:   Tue Apr 2 05:17:34 2024 +0700
+
+    main && list
+
+[33mcommit acec5ca7ff3d7965c1f6dc8f878a5fdee581f03b[m
+Author: jackson545355 <trinhphung605@gmail.com>
+Date:   Fri Mar 29 20:55:53 2024 +0700
+
+    Cart vs product
+
+[33mcommit 21c8ca93724d9de37047c18d359c200e85831a79[m
+Author: jackson545355 <trinhphung605@gmail.com>
+Date:   Tue Mar 26 11:14:10 2024 +0700
+
+    Dap ra xay lai
+
+[33mcommit fd33b3ed8a51b38e45964758384d3b3870d71191[m
+Author: jackson545355 <trinhphung605@gmail.com>
+Date:   Thu Mar 14 14:25:59 2024 +0700
+
+    14/03/2024
+
+[33mcommit 4614a9d0e64136c0ccb41a166b8b54a174049afd[m
+Author: nhokthaivt2000 <xumap.gt@gmail.com>
+Date:   Wed Mar 13 23:20:28 2024 +0700
+
+    fix local img
+
+[33mcommit d7c0fb9108f527885b88e6693ce1aeb0345c1a3c[m
+Author: PhamThuan <96373352+nhokthaivt2000@users.noreply.github.com>
+Date:   Wed Mar 13 16:58:38 2024 +0700
+
+    Delete node_modules directory
+
+[33mcommit 02fecbff9f4992c6bf0fbde309315536b89757ea[m
+Author: jackson545355 <trinhphung605@gmail.com>
+Date:   Fri Mar 8 17:40:00 2024 +0700
+
+    08/03/2024
+
+[33mcommit 284e527183391f86a2079129230b8a6e6d07256d[m
+Author: jackson545355 <trinhphung605@gmail.com>
+Date:   Wed Mar 6 10:38:31 2024 +0700
+
+    fix
+
+[33mcommit 28f7340d1680a47fe409ac028ff289e63ee36823[m[33m ([m[1;31morigin/test[m[33m, [m[1;32mtest[m[33m)[m
+Merge: aab12779 f646d727
+Author: Veolo <phamthanhhung71102@gmail.com>
+Date:   Tue Mar 5 19:23:31 2024 +0700
+
+    Merge branch 'test' of https://github.com/jackson545355/TMDT-DACN
+
+[33mcommit aab1277983a4bb76ba4ccfa48131b5a5cd42f333[m
+Author: Veolo <phamthanhhung71102@gmail.com>
+Date:   Tue Mar 5 14:11:56 2024 +0700
+
+    first test
+
+[33mcommit f646d727d13e795eed3c1210bdbaabb6b895da6c[m
+Author: jackson545355 <trinhphung605@gmail.com>
+Date:   Mon Mar 4 13:38:44 2024 +0700
+
+    add file
+
+[33mcommit 7e1cfcb028a61c01d0487ce66bad1f8ee0398c51[m
+Author: jackson545355 <trinhphung605@gmail.com>
+Date:   Mon Mar 4 13:36:36 2024 +0700
+
+    back end
+
+[33mcommit 7776e9b0aa0cfaf9301c4956f31811f1454ff3cb[m
+Author: jackson545355 <trinhphung605@gmail.com>
+Date:   Mon Mar 4 13:32:47 2024 +0700
+
+    back end
+
+[33mcommit f87eefa50877ed0372ec8712cb9bce05ec86910e[m
+Author: nhokthaivt2000 <xumap.gt@gmail.com>
+Date:   Sat Feb 24 15:53:25 2024 +0700
+
+    new

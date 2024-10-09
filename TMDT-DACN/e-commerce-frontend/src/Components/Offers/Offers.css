@@ -1,0 +1,102 @@
+.deals-container {
+    width: 85%;
+    margin: 20px auto; /* Để căn giữa container */
+    background: #f9f9f9; /* Màu nền trắng hoặc màu theo yêu cầu */
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    display: flex;
+  }
+  .deals-header{
+    padding: 20px 0 0 20px;
+    align-items: start;
+    width: 293px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px 0 0 10px ; /* Đặt border-radius */
+    overflow: hidden; /* Đảm bảo ảnh nền bị bo tròn theo đường viền */
+  }
+
+  .deals-header h3{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .countdown {
+    display: flex;
+    justify-content: start; /* Căn giữa các thành phần */
+    gap: 5px; /* Khoảng cách giữa các thành phần */
+  }
+  
+  .countdown span {
+    width: 19%;
+    text-align: center; /* Căn giữa nội dung trong mỗi span */
+    padding: 1px 0;
+    background-color: #606060; /* Màu nền cho mỗi phần */
+    color: white;
+    border-radius: 7px;
+    display: flex; /* Cho phép flexbox trong span */
+    flex-direction: column; /* Sắp xếp các mục theo cột */
+    align-items: center; /* Căn giữa các items theo chiều dọc */
+    justify-content: center; /* Căn giữa các items theo chiều ngang */
+  }
+  .countdown span .number {
+    font-weight: bold; /* Chỉ đậm cho số */
+    font-size: large;
+    color: white; /* Màu chữ trắng */
+    height: 30%;
+  }
+  
+  .countdown span .text {
+    font-weight: normal; /* Chữ bình thường cho phần chữ */
+    color: white; /* Màu chữ trắng */
+    height: 30%;
+  }
+  
+  .deals-product-grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(180px, 1fr));
+    width: 78%;
+  }
+  
+  .deals-product-card {
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    position: relative;
+  }
+  
+
+  a:last-child .deals-product-card{
+    border-radius: 0 8px 8px 0;
+  }
+  
+  .deals-product-card img {
+
+    max-height: 70%;
+    width: auto;
+    max-width: 100%;
+    object-fit: cover;
+    margin: auto;
+  }
+
+  .deals-product-discount{
+    color: red;
+    background-color: pink;
+    border-radius: 20px;
+    width: 27%;
+    text-align: center;
+  }
+  /* Thêm media queries để xử lý responsive design */
+  .product-name {
+    max-width: 90%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+  }

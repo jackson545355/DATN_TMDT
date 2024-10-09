@@ -1,0 +1,80 @@
+.supplier-request-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 85%;
+    margin: 20px auto;
+    background-image: linear-gradient( to right,rgba(44,123,241, 230),
+                                     rgba(100,188,212, 0.5)),
+                      url('../Assets/banner_kids.png'); /* Replace with your actual image path */
+    background-size: cover;
+    background-position: center;
+    /* backdrop-filter: blur(100%); */
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds shadow for depth */
+    border-radius: 10px; /* Optional: Rounds the corners */
+    box-sizing: border-box;
+  }
+  
+  .supplier-text-content {
+    width: 50%;
+    color: #fff; /* Adjust based on your background */
+  }
+  
+  .supplier-form-content {
+    width: 40%;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .supplier-form-content h2, 
+  .supplier-form-content form {
+    margin-bottom: 1rem;
+  }
+  
+  .supplier-form-content input,
+  .supplier-form-content textarea,
+  .supplier-form-content select {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-quantity {
+    display: flex;
+  }
+  
+  .form-quantity input {
+    flex: 1;
+    margin-right: 0.5rem;
+  }
+  
+  .form-quantity select {
+    flex-basis: 100px;
+  }
+  
+  .supplier-form-content button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .supplier-request-section {
+      flex-direction: column;
+    }
+  
+    .supplier-text-content,
+    .supplier-form-content {
+      width: 100%;
+    }
+  }
+  

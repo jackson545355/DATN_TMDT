@@ -1,0 +1,189 @@
+.profile-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    font-family: 'poppins';
+  }
+  
+  .profile-container h2 {
+    text-align: center;
+    color: #333;
+    padding-bottom: 30px;
+  }
+  
+  .profile-container form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+ .profile-container form label {
+    display: flex;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #666;
+  }
+  
+  .profile-container form input[type="text"],
+  .profile-container form select {
+    width: 87%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .profile-container .gender-container .gender2{
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.6); 
+  }
+
+  .gender-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .gender1 {    
+    margin-right: 20px; 
+  }
+
+  .gender-container input[type="radio"] {
+    display: none;
+  }
+  
+  
+  .gender-container input[type="radio"] + label {
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  .gender-container input[type="radio"] + label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 16px;
+    width: 16px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    background-color: white;
+  }
+  
+  
+  .gender-container input[type="radio"]:checked + label:before {
+    border: 2px solid #007bff;
+  }
+  
+ 
+  .gender-container input[type="radio"]:checked + label:after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%) scale(0.5);
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #007bff;
+  }
+  .dob-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .dob-section span {
+    white-space: nowrap;
+  }
+  
+  .profile-container .dob-section select {
+    padding: 5px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .profile-container form .day {
+    width: 50px;
+  }
+  
+  .profile-container form .month {
+    width: 110px;
+  }
+  
+  .profile-container form .year {
+    width: 65px;
+  }
+  
+  p {
+    color: red !important;
+  } 
+  
+ 
+  .profile-picture {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    grid-column: 1 / -1; 
+    text-align: center; 
+}
+
+  .profile-picture img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px; 
+  }
+
+  .custom-file-upload {
+      cursor: pointer;
+      margin-top: 10px; 
+  }
+
+  
+  
+  .profile-container button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .profile-container button[type="submit"] {
+    grid-column: 1 / -1; 
+    max-width: 200px;
+    margin: 20px auto;
+  }
+  
+  .profile-container button[type="button"] {
+    padding: 8px 12px;
+    background-color: #007bff;
+  }
+  
+  .profile-container form input:disabled {
+    background-color: #f0f0f0;
+    color: #888;
+  }
+  
+  .text-img {
+    display: block;
+    flex-direction: column;
+  }
+
+  .text-img div {
+    width: 100%;
+  }
+  
+  .order{
+    color: --mdb-link-color;
+    background-color: black;
+  }

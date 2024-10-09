@@ -1,0 +1,50 @@
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: #f0f0f0;
+    border-radius: 5px;
+    margin: 10px;
+    margin-left: 45px;
+    width: 1000px;
+  }
+  
+  .items-per-page {
+    margin-right: 20px;
+  }
+  
+  .items-per-page label {
+    margin-right: 5px;
+  }
+  
+  .items-per-page select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .page-numbers button {
+    background: none;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .page-numbers button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .page-numbers button.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+  }
+  
+  .page-numbers button:disabled {
+    color: #ccc;
+    cursor: not-allowed;
+  }
+  

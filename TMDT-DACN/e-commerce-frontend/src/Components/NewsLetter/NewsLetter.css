@@ -1,0 +1,139 @@
+
+/* NewsletterForm.css */
+
+.newsletter-container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .newsletter-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .newsletter-container p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter-container form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .newsletter-container input[type="email"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .newsletter-container button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .newsletter-container button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+    
+.input-group {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .input-group-icon {
+    padding: 10px;
+    background: white;
+    border-radius: 10px 0 0 10px;
+  }
+  
+  .input-group input[type="email"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  /* Rest of your styles... */
+  /* Đặt chiều rộng toàn trang và thiết lập background color hoặc hình ảnh nếu cần */
+/* .newsletter {
+    width: 100%;
+    background-color: #f3f3f3; 
+    padding: 20px 0; 
+  }
+  
+
+  .newsletter-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px; 
+    text-align: center; 
+  }
+  
+  .newsletter h2 {
+    margin: 0 0 10px;
+    font-size: 24px;
+  }
+  
+  .newsletter p {
+    margin: 0 0 20px;
+    font-size: 16px;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .form-group {
+    position: relative;
+    display: flex;
+  }
+  
+  .input-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .form-group input[type="email"] {
+    flex: 1;
+    padding: 10px 10px 10px 40px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .newsletter button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .newsletter button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .newsletter input[type="email"],
+  .newsletter button {
+    height: 40px;
+  }
+   */

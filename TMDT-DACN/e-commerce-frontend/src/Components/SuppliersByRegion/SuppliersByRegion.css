@@ -1,0 +1,59 @@
+.suppliers-by-region {
+    width: 85%;
+    margin: 20px auto;
+
+    box-sizing: border-box;
+    background-color: #fff; /* Adjust background color as needed */
+  }
+  
+  .supplier-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around; 
+    align-items: center;
+  }
+  
+  .supplier-item {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Adjust the space between flag, country name, and domain */
+  }
+  
+  .flag-icon {
+    /* Include styles for the flag icons here.
+       If you're using a flag library like "flag-icon-css", they may already be styled. */
+  }
+  
+  .country-name {
+    /* Style for the country name text */
+  }
+  
+  .domain-name {
+    /* Style for the domain link */
+    color: #000; /* Adjust link color as needed */
+    text-decoration: none; /* No underline */
+  }
+  
+  /* You might need to adjust the following styles based on your flag icon library */
+  .flag-icon {
+    background-size: cover;
+    display: inline-block; /* Allows us to set dimensions */
+    width: 20px; /* Width of the flag icon */
+    height: 15px; /* Height of the flag icon */
+    background-position: center;
+  }
+  .flag-icon {
+    width: 20px; /* Width of the flag icon */
+    height: auto; /* Keeps the aspect ratio intact */
+  }
+  
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .supplier-list {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  

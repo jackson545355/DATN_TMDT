@@ -1,0 +1,221 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white; /* Blue color */
+    color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img{
+    width: 45px;
+}   
+
+.logo p{
+    color: #171717;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.header .search-container {
+    flex-grow: 0.7;
+    display: flex;
+    justify-content: center;    
+    position: relative;
+}
+
+.search-bar {
+    width: 30%; 
+    padding: 10px;
+    border-color: #127FFF;
+    border-radius: 5px 0 0 5px;
+    flex-grow: 0;
+    margin-right: -1px;
+    border-width: 1px;
+}
+
+.category-dropdown {
+    padding: 10px 10px 10px 10px;
+    border-color: #127FFF;
+    margin-right: -1px;
+    background: white;
+    color: black;
+    cursor: pointer;
+    justify-content: center;
+    display: flex;
+}
+
+
+.search-button {
+    padding: 10px;
+    border-color: #127FFF;
+    background-color: #127FFF; /* Màu nút */
+    color: white;
+    cursor: pointer;
+    border-width: 1px;
+    /* border-radius: 0 5px 5px 0;  */
+    border-radius: 0;
+}
+
+.search-container button:active{
+    background: #4fa1ff;
+}
+
+.search-bar:focus, .category-dropdown:focus {
+    outline: none;
+}
+
+/* .search-results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    max-height: 300px;
+    overflow-y: auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+  }
+  
+  .search-results li {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .search-results li:hover {
+    background-color: #f5f5f5;
+  } */
+
+  .search-results {
+    list-style-type: none;
+    border: 1px solid #127FFF;
+    max-height: 200px;
+    overflow-y: auto;
+    position: absolute;
+    top: 100%; /* Hiển thị ngay dưới search bar */
+    left: 0;
+    width: 70%; /* Chiều rộng khớp với search bar */
+    background-color: #ffffff; /* Đổi màu nền sang xanh dương nhạt */
+    z-index: 1000; /* Đảm bảo rằng nó nằm trên các phần tử khác */
+    margin-left: 16px;
+    color: #000000;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+  
+  .search-results li {
+    margin: 10px 0px;
+    margin-right: 10px;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+   }
+  
+  .search-results li:hover {
+    background-color: #1281ff00; /* Đổi màu nền khi hover sang xanh dương đậm */
+    color: #127FFF; /* Đổi màu chữ khi hover sang trắng để dễ đọc */
+  }
+  
+  
+
+.header input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border-color: #127FFF;
+}
+.header .user-actions {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-right: 30px;
+}
+.header .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #127FFF;
+}
+
+.header .icon1 {
+    width: 30px;
+    height: 30px;
+}
+
+.upload-button {
+    display: none;
+  }
+  
+  .custom-upload-button {
+    display: flex;
+    background: url('../Assets/camera.png') no-repeat center;
+    width: 40px;
+    /* background-color: #84bdff; */
+    background-size: 70%;
+    cursor: pointer;
+    padding: 10px;
+    border-color: #127FFF;
+    background-color: #79b7ff; /* Màu nút */
+    color: white;
+    cursor: pointer;
+    border-width: 1px;
+    border-radius: 0 5px 5px 0; 
+  }
+
+.cart-count{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+    margin-left: -40px;
+    font-size: 12px;
+    background: red;
+    color: white;
+}
+
+.login-cart{
+    display: block;
+    gap: 30px;
+}
+
+.login-cart button{
+    width: 100px;
+    height: 35px;
+    outline: none;
+    border: 1px solid #7a7a7a;
+    border-radius: 75px;
+    color: #515151;
+    font-size: 18px;
+    font-weight: 500;
+    background: white;
+    cursor: pointer;
+    padding: 15 px 20px; 
+    display: inline-block;
+    text-align: center;
+    
+}
+.login-cart button:active{
+    background: #f3f3f3;
+}

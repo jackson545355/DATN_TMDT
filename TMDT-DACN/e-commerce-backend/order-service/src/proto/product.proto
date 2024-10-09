@@ -1,0 +1,65 @@
+syntax = "proto3";
+
+package product;
+
+service ProductService {
+  rpc GetProductById (GetProductByIdRequest) returns (GetProductByIdResponse);
+  rpc UpdateProductById (UpdateProductByIdRequest) returns (UpdateProductByIdResponse);
+  rpc GetAllProducts (GetAllProductsRequest) returns (GetAllProductsResponse);
+}
+
+message GetProductByIdRequest {
+  string product_id = 1;
+}
+
+message GetProductByIdResponse {
+  Product product = 1;
+}
+
+message UpdateProductByIdRequest {
+  string product_id = 1;
+  Product product = 2;
+}
+
+message UpdateProductByIdResponse {
+  bool success = 1;
+}
+
+message GetAllProductsRequest {}
+
+message GetAllProductsResponse {
+  repeated Product products = 1;
+}
+
+message Product {
+  string id = 1;
+  string name_product = 2;
+  float price_product = 3;
+  repeated string images = 4;
+  string model3D = 5;
+  string brand = 6;
+  string description = 7;
+  repeated Color colors = 8;
+  int32 totalStock = 9;
+  int32 id_category = 10;
+  repeated Comment comments = 11;
+  int32 numberSold = 12;
+}
+
+message Color {
+  string color = 1;
+  int32 stock = 2;
+}
+
+message Comment {
+  User user = 1; // Thay vì chỉ lưu user_id, lưu thông tin đầy đủ về user
+  string comment = 2;
+  int32 rating = 3; // Thêm rating cho mỗi comment
+  string date = 4;
+}
+
+message User {
+  string userid = 1;
+  string username = 2;
+  string profileImage = 3; // Thêm profileImage như trong schema Mongoose
+}

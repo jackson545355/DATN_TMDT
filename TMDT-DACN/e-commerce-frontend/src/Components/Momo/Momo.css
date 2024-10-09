@@ -1,0 +1,9 @@
+.momo-container {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .momo-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }

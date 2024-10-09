@@ -1,0 +1,31 @@
+.thankyou-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #79b8ffa5;
+    color:  rgba(62, 37, 255, 0.792);
+    margin-bottom: 10%;
+  }
+  
+  .thankyou-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .thankyou-container p {
+    margin-bottom: 30px;
+  }
+  
+  .thankyou-container .btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #127FFF; /* Green */
+    color: white;
+    border: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .thankyou-container .btn:hover {
+    background-color: #79b7ff;
+  }
+  
